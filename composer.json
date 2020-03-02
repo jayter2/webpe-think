@@ -1,0 +1,29 @@
+{
+    "name": "webpe/think",
+    "description": "webpe improved thinkphp framework",
+    "type": "think-framework",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "webpe"
+    ],
+    "homepage": "http://www.webpe.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        },
+        {
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
+        },
+        {
+            "name": "jayter",
+            "email": "jayter2@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
