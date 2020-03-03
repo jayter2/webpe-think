@@ -177,8 +177,8 @@ class App extends Container
         $this->rootPath    = dirname($this->appPath) . DIRECTORY_SEPARATOR;
         $this->webpePath   = $this->rootPath . 'webpe'.DIRECTORY_SEPARATOR;
         $this->runtimePath = $this->rootPath . 'runtime' . DIRECTORY_SEPARATOR;
-        $this->routePath   = $this->webpePath . 'route' . DIRECTORY_SEPARATOR;
-        $this->configPath  = $this->webpePath . 'config' . DIRECTORY_SEPARATOR;
+        $this->routePath   = $this->rootPath . 'route' . DIRECTORY_SEPARATOR;
+        $this->configPath  = $this->rootPath . 'config' . DIRECTORY_SEPARATOR;
 
         static::setInstance($this);
 

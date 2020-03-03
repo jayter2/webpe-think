@@ -1,6 +1,6 @@
 
 ## 框架说明
-该框架主要优化提升性能，以便于更好的支持基础开发和扩展开发。
+该框架主要由WebPE优化提升性能，以便于更好的支持基础开发和扩展开发。
 [详细请见](http://www.webpe.cn)
 
 
@@ -9,10 +9,10 @@
 [升级指导](https://www.kancloud.cn/thinkphp/thinkphp5_new_features/317742)
 
 
-## WebPE框架优化记录：
+## 框架优化记录：
 + library\think\view\driver\Think.php 系统视图实现模板引擎按需加载
 + library\think\Log.php(89)写日记时才加载驱动
-+ library\think\App.php 增加webpe路径,修改config|route|extend路径
++ library\think\App.php 增加webpe路径,修改extend路径
 + library\think\App.php(200,992)增加webpe_path
 + library\think\App.php(295,300)目录调整common.php改到webpe目录命名为functions
 + library\think\console\command\optimize\Config.php(78,86) 与上面一样
