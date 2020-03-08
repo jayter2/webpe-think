@@ -53,11 +53,11 @@ return [
         // 默认的空模块名
         'empty_module'           => '',
         // 默认模块名
-        'default_module'         => 'index',
+        'default_module'         => 'home',
         // 是否支持多模块
         'app_multi_module'       => true,
         // 禁止访问模块
-        'deny_module_list'       => ['common'],
+        'deny_module_list'       => [],
         // 默认控制器名
         'default_controller'     => 'Index',
         // 默认操作名
@@ -78,7 +78,7 @@ return [
         // 默认全局过滤方法 用逗号分隔多个
         'default_filter'         => '',
         // PATHINFO变量名 用于兼容模式
-        'var_pathinfo'           => 's',
+        'var_pathinfo'           => 'r',
         // 兼容PATH_INFO获取
         'pathinfo_fetch'         => ['ORIG_PATH_INFO', 'REDIRECT_PATH_INFO', 'REDIRECT_URL'],
         // HTTPS代理标识
